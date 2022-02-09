@@ -3,7 +3,7 @@ package com.spring5.animalmagnetismpetclinic.models;
 import lombok.Data;
 
 @Data
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 }

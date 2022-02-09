@@ -1,6 +1,9 @@
 package com.spring5.animalmagnetismpetclinic.models;
 
-public class Person {
+import lombok.Data;
+
+@Data
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
