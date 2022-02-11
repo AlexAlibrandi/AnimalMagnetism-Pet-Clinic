@@ -1,0 +1,9 @@
+com/spring5/animalmagnetismpetclinic/models/BaseEntity.class
+com/spring5/animalmagnetismpetclinic/models/Owner.class
+com/spring5/animalmagnetismpetclinic/services/OwnerService.class
+com/spring5/animalmagnetismpetclinic/models/PetType.class
+com/spring5/animalmagnetismpetclinic/models/Person.class
+com/spring5/animalmagnetismpetclinic/services/PetService.class
+com/spring5/animalmagnetismpetclinic/models/Pet.class
+com/spring5/animalmagnetismpetclinic/models/Vet.class
+com/spring5/animalmagnetismpetclinic/services/VetService.class

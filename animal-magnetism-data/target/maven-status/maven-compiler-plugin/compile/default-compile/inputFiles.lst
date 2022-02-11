@@ -1,0 +1,9 @@
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/PetType.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/Pet.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/Person.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/Vet.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/BaseEntity.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/models/Owner.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/services/PetService.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/services/OwnerService.java
+/Users/alexalibrandi/Coding/Spring/AnimalMagnetism-Pet-Clinic/animal-magnetism-data/src/main/java/com/spring5/animalmagnetismpetclinic/services/VetService.java
