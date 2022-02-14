@@ -4,8 +4,6 @@ import com.spring5.animalmagnetismpetclinic.models.Owner;
 import com.spring5.animalmagnetismpetclinic.models.Vet;
 import com.spring5.animalmagnetismpetclinic.services.OwnerService;
 import com.spring5.animalmagnetismpetclinic.services.VetService;
-import com.spring5.animalmagnetismpetclinic.services.map.OwnerServiceMap;
-import com.spring5.animalmagnetismpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -13,12 +11,12 @@ import org.springframework.stereotype.Component;
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
-
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
