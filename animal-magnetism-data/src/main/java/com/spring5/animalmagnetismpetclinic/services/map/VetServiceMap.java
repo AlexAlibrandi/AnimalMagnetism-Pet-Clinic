@@ -1,11 +1,11 @@
 package com.spring5.animalmagnetismpetclinic.services.map;
 
 import com.spring5.animalmagnetismpetclinic.models.Vet;
-import com.spring5.animalmagnetismpetclinic.services.CrudService;
+import com.spring5.animalmagnetismpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

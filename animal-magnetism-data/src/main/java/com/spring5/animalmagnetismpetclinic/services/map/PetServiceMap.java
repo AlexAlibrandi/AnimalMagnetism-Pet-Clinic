@@ -1,13 +1,13 @@
 package com.spring5.animalmagnetismpetclinic.services.map;
 
-import com.spring5.animalmagnetismpetclinic.models.Owner;
-import com.spring5.animalmagnetismpetclinic.services.OwnerService;
+import com.spring5.animalmagnetismpetclinic.models.Pet;
+import com.spring5.animalmagnetismpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
-    public Set<Owner> findAll() {
+    public Set<Pet> findAll() {
         return super.findAll();
     }
 
@@ -17,22 +17,22 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void delete(Owner object) {
+    public void delete(Pet object) {
         super.delete(object);
     }
 
     @Override
-    public Owner save(Owner object) {
+    public Pet save(Pet object) {
         return super.save(object.getId(),object);
     }
 
     @Override
-    public Owner findById(Long id) {
+    public Pet findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public Owner findByLastName(String lastName) {
+    public Pet findByLastName(String lastName) {
         return null;
     }
 }
